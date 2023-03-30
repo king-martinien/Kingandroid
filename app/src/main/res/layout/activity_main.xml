@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="25dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/intro_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/onboarding_text"
+        android:padding="20dp"
+        android:src="@drawable/happy_music"
+        app:layout_constraintBottom_toTopOf="@+id/intro_title_textview" />
+
+    <TextView
+        android:id="@+id/intro_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/gte_estiprotext_bold"
+        android:text="@string/title"
+        android:textColor="@color/clr_black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/intro_textview" />
+
+    <TextView
+        android:id="@+id/intro_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/clr_black"
+        android:layout_marginBottom="20dp"
+        android:text="@string/onboarding_text"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/button_login" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/custom_btn"
+        android:maxWidth="375dp"
+        android:text="@string/label_login"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_register"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/btn_stroke"
+        android:maxWidth="375dp"
+        android:text="@string/label_register"
+        android:textAllCaps="false"
+        android:textColor="@color/clr_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="VisualLintButtonSize" />
+
+    <!--
+
+     <Button
+         android:id="@+id/button_login"
+         android:layout_width="match_parent"
+         android:layout_height="65dp"
+         android:layout_marginBottom="5dp"
+         android:text="@string/label_login"
+         android:textAllCaps="false"
+         android:textSize="16sp"
+         app:layout_constraintBottom_toTopOf="@id/button_register"
+         tools:ignore="VisualLintButtonSize" />
+
+     <Button
+         android:id="@+id/button_register"
+         android:layout_width="match_parent"
+         android:layout_height="65dp"
+         android:backgroundTint="@color/clr_white"
+         android:text="@string/label_register"
+         android:textAllCaps="false"
+         android:textColor="@color/clr_black"
+         android:textSize="16sp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         tools:ignore="VisualLintButtonSize" />
+ -->
+</androidx.constraintlayout.widget.ConstraintLayout>

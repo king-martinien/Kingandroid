@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">King-android</string>
+    <string name="label_login">Login</string>
+    <string name="label_register">Register</string>
+    <string name="welcome">Welcome</string>
+    <string name="title">Every thing you need is in one place!</string>
+    <string name="onboarding_text">Find your daily necessity at Brand.The World\'s largest fashion e-commerce has arrived in a mobile show now!</string>
+</resources>
