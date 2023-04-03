@@ -13,4 +13,6 @@
     <color name="clr_black">#000000</color>
     <color name="clr_orange">#E94A0C</color>
     <color name="transparent">#00FFFFFF</color>
+    <color name="clr_bg_field">#F2F2F2</color>
+    <color name="clr_gray">#CCC</color>
 </resources>

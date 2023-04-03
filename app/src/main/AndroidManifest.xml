@@ -12,6 +12,21 @@
         android:theme="@style/Theme.Kingandroid"
         tools:targetApi="31">
         <activity
+            android:name=".CodeResetVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateNewPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

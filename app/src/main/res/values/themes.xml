@@ -12,6 +12,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="android:fontFamily">@font/gte_esti_protext_light</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:color">@color/clr_black</item>
     </style>
 </resources>

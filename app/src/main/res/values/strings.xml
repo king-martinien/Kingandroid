@@ -5,4 +5,38 @@
     <string name="welcome">Welcome</string>
     <string name="title">Every thing you need is in one place!</string>
     <string name="onboarding_text">Find your daily necessity at Brand.The World\'s largest fashion e-commerce has arrived in a mobile show now!</string>
+    <string name="no_account_text">Don\'t have an account ?</string>
+    <string name="already_account">Already have account ?</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="label_email">Email</string>
+    <string name="label_username">Username</string>
+    <string name="enter_username">Enter your name</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="enter_confirm_password">Enter confirm Password</string>
+    <string name="login_intro_text">Login to continue using the app</string>
+    <string name="register_intro_text">Enter your Personal information</string>
+    <string name="back_text">go back</string>
+    <string name="or_login_with">Or Login with</string>
+
+    <string name="speakable_text_apple">apple icon</string>
+    <string name="speakable_text_google">google icon</string>
+    <string name="speakable_text_facebook">facebook icon</string>
+
+    <string name="send_code">Send Code</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="forget_password_text">Don\'t worry! it occurs. Please enter the email address linked with your account.</string>
+
+    <string name="create_new_password">Create New Password</string>
+    <string name="create_new_password_text">Your new password must me unique from those,previously used.</string>
+    <string name="new_password">New Password</string>
+    <string name="reset_password">Reset Password</string>
+
+    <string name="do_not_received_code">Don\'t received code ?</string>
+    <string name="resend">Resend</string>
+    <string name="verify">Verify</string>
+    <string name="code_reset_title">OPT Verification</string>
+    <string name="code_reset_text">Enter the verification code we just sent on your email address.</string>
 </resources>

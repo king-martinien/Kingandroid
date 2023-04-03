@@ -38,8 +38,7 @@
         android:shadowColor="@color/clr_black"
         android:text="@string/onboarding_text"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@id/button_login"
-        tools:targetApi="p" />
+        app:layout_constraintBottom_toTopOf="@id/button_login" />
 
     <Button
         android:id="@+id/button_login"
